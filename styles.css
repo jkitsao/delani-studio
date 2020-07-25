@@ -1,0 +1,21 @@
+
+
+.hero_section{
+    background-image: url('./assets/backgrounds/h_img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height:90vh;
+  
+}
+.hero_section_text{
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    padding-top: 5rem;;
+}
+.mouse_click{
+    margin-top:20rem;
+}
+.mouse_click_icon{
+    text-align: center;
+}
