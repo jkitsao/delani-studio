@@ -15,7 +15,10 @@
   
 }
 p{
-    font-size: 1rem;
+    font-size: 0.95rem;
+}
+.p-toggle{
+    font-size: 0.9rem;
 }
 .hero_section_text{
     display:flex;
@@ -29,6 +32,7 @@ p{
     grid-template-columns:100%;
     column-gap:4rem;
     row-gap: 2rem;
+    padding: 1rem;
     /* justify-content:space-evenly; */
 }
 .portfolio_section{
