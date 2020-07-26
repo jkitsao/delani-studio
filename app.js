@@ -66,5 +66,6 @@ $(document).ready(function () {
   //form submission
   $("#form-1").submit((e) => {
     e.preventDefault();
+    $("#show-popup").show();
   });
 });

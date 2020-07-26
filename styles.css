@@ -137,3 +137,20 @@ h5{
  .social_media_links{
      margin: 1.6rem 0;
  }
+.popup-show{
+    position:fixed;
+    top:25%;
+    left:35%;
+    width:30rem;
+    height:20rem;
+    background-color: rgb(119, 119, 119);
+}
+.popup-hide{
+    position:fixed;
+    display:none;
+    top:25%;
+    left:35%;
+    width:30rem;
+    height:20rem;
+    background-color: rgb(119, 119, 119);
+}
