@@ -6,6 +6,7 @@
     <title></title>
     <link rel="stylesheet" href="./bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="media.css" />
   </head>
   <body>
     <div class="hero_section">
@@ -141,17 +142,17 @@
       <div class="contact_form_section pt-5">
         <form id='form-1'>
           <div class=''>
-            <input type="text " placeholder="name..." class='input_field name_field'>
-            <input type="Email " placeholder="name..." class='input_field email_field'>
+            <input type="text " placeholder="name..." class='input_field name_field' required>
+            <input type="Email " placeholder="Email..." class='input_field email_field' required>
           </div>
           <div>
-            <textarea class="text-area" placeholder="Your message here..." >
+            <textarea class="text-area" placeholder="Your message here..." required>
               your message here
             </textarea>
           </div>
           <!-- popup -->
           <!-- Button trigger modal -->
-<button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<button type="submit" id='sub-btn' class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
   Submit
 </button>
 

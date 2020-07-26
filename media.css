@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1000px) {
+    
+   h1{
+       font-size: 1.8rem;
+   }
+   h2{
+    font-size: 1.5rem;
+}
+.hero_section{
+    background-image: url('./assets/backgrounds/h_img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height:70vh;
+    padding: 0 2rem;
+  
+}
+p{
+    font-size: 1rem;
+}
+.hero_section_text{
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    padding-top: 3rem;
+    
+}
+.wwd_area {
+    display:grid;
+    grid-template-columns: 48% 48%;
+    column-gap:4rem;
+    /* justify-content:space-evenly; */
+}
+.portfolio_section{
+    /* text-align: center;
+     */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    padding-left:1%;
+    padding-top:3rem;
+    /* display:flex; */
+    /* justify-content: center; */
+}
+.portfolio_cards{
+    display:grid;
+    grid-template-columns: 48% 48%;
+    /* grid-template-rows: 15% 15%  */
+    /* column-gap:1rem; */
+    column-gap: 0.5rem;
+    row-gap: 1rem;
+    
+   
+}
+  }
