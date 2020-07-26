@@ -96,6 +96,9 @@ p{
 
     display:none;
 }
+.overlay:hover{
+    cursor: pointer;
+}
 .contact_us_section{
     background: url('./assets/backgrounds/c_image.jpg');
     height:60vh;

@@ -57,4 +57,10 @@ $(document).ready(function () {
   $("#pr-8").hover(function () {
     $("#p-8").toggle();
   });
+  $("#myModal").on("shown.bs.modal", function () {
+    $("#myInput").trigger("focus");
+  });
+  $("#form-1").submit((e) => {
+    e.preventDefault();
+  });
 });
