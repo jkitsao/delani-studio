@@ -6,6 +6,10 @@
    h2{
     font-size: 1.5rem;
 }
+h5{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
 .hero_section{
     background-image: url('./assets/backgrounds/h_img.jpg');
     background-repeat: no-repeat;
