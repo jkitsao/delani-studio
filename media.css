@@ -10,9 +10,12 @@
     background-image: url('./assets/backgrounds/h_img.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    height:70vh;
+    height:90vh;
     padding: 0 2rem;
   
+}
+.hero-desc{
+    font-size: 1.2rem;
 }
 p{
     font-size: 0.95rem;
@@ -48,7 +51,7 @@ p{
 }
 .portfolio_cards{
     display:grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 48% 48%;
     /* grid-template-rows: 15% 15%  */
     /* column-gap:1rem; */
     column-gap: 0.5rem;
@@ -60,9 +63,18 @@ p{
     height: 100%;
     padding:2rem 1rem
 }
+.input_field{
+    width:90%;
+    height:2.2rem;
+    background: transparent;
+    color:white;
+    border:1px solid rgb(0, 0, 0);
+    margin:0 1rem;
+    padding-left:1rem;
+}
 .input-1{
     display: grid;
-    grid-template-columns: 90rem;
+    grid-template-columns:;
     row-gap: 1rem;
     margin-left: 1rem;
 }
