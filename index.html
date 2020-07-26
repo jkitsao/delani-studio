@@ -156,10 +156,14 @@
       </div>
       <div class="popup-hide shadow-lg rounded" id='show-popup'>
         <span class='mt-3'>
-          <h3 class='text-center text-light mt-4'>Message sent successfully</h3>
+          <div class="modal-header">
+            <h5 class=" text-success" id="exampleModalLongTitle">Message sent successfully</h5>
+            <button type="button" class="close" id='close-btn'>
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
         </span>
-        <!-- <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button> -->
-        <button type="button" class="btn btn-success mt-5" id='close-btn'>okay</button>
+       <p class='text-dark mx-3'>we have recieved your message and will get back to you shortly</p>
       </div>
     </section>
     <section class="social_links_section text-center">

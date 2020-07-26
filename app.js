@@ -57,15 +57,13 @@ $(document).ready(function () {
   $("#pr-8").hover(function () {
     $("#p-8").toggle();
   });
-  $("#exampleModal").on("shown.bs.modal", function () {
-    $(".name_field").trigger("focus");
-  });
-  if (!$(".name_field").val()) {
-    // $("#sub-btn").addClass("disabled");
-  }
+
   //form submission
   $("#form-1").submit((e) => {
     e.preventDefault();
     $("#show-popup").show();
+  });
+  $("#close-btn").on("click", function () {
+    $("#show-popup").hide();
   });
 });
