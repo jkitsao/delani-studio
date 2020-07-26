@@ -32,4 +32,29 @@ $(document).ready(function () {
     $(".pm-img").show();
     $("#pm-text").hide();
   });
+  //on hover
+  $("#pr-1").hover(function () {
+    $("#p-1").toggle();
+  });
+  $("#pr-2").hover(function () {
+    $("#p-2").toggle();
+  });
+  $("#pr-3").hover(function () {
+    $("#p-3").toggle();
+  });
+  $("#pr-4").hover(function () {
+    $("#p-4").toggle();
+  });
+  $("#pr-5").hover(function () {
+    $("#p-5").toggle();
+  });
+  $("#pr-6").hover(function () {
+    $("#p-6").toggle();
+  });
+  $("#pr-7").hover(function () {
+    $("#p-7").toggle();
+  });
+  $("#pr-8").hover(function () {
+    $("#p-8").toggle();
+  });
 });
